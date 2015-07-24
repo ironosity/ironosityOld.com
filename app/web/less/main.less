@@ -1,0 +1,72 @@
+@import "_colors";
+
+
+@top_menu_height: 75px;
+
+
+/*paddings*/
+@outside-padding: 10px;
+body {
+  background-color: @gray-1;
+  color: @black-1;
+  margin: 0;
+  padding: 0 10% 0 10%;
+}
+
+.main_body {
+  width: 100%;
+}
+
+.header_logo {
+  font-size: 2.2em;
+  font-family: Calibri;
+}
+
+.top_header {
+  background-color: @gray-9;
+  height: 50px;
+  color: ghostwhite;
+  padding-left: @outside-padding;
+
+
+}
+
+.top_menu {
+  background-color: @gray-10;
+  height: @top_menu_height;
+  color: @green;
+  a {
+    color: @green;
+    text-decoration: none;
+  }
+
+  ul {
+    display: inline-block;
+    height: @top_menu_height;
+    margin: 0;
+    li:first-of-type {
+      padding: 0 15px 0 0;
+    }
+    li {
+      display: inline-block;
+      padding: 0 15px;
+      position: relative;
+      top: 35%;
+    }
+  }
+}
+
+.left_nav {
+  padding-left: @outside-padding;
+  display: inline-block;
+  width: 15%;
+  height: 100vh;
+  background-color: @red;
+}
+
+.content {
+  background: #112 url( http://www.ironosity.com/wp-content/uploads/2015/03/cropped-DSC_5305-edited.jpg ) center;
+  height: 100vh;
+  width: auto;
+  display: inline-block;
+}

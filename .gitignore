@@ -1,0 +1,10 @@
+/.bundle
+
+# Ignore all logfiles and tempfiles.
+/log/*.log
+/tmp
+
+# Extra files to ignore
+/node_modules
+.DS_Store
+.idea/
